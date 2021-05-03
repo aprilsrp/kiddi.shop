@@ -1,0 +1,20 @@
+{
+  "SERVER_URL": "http://localhost:3001/graphql",
+  "SERVER_IMAGE": "http://103.13.231.22:3001/images",
+  "ADMIN": {
+    "CREATE_PRODUCT": {
+      "PRODUCT_TYPE": {
+        "select_value": ["shirt", "pants", "skirt", "accessories"],
+        "select_input": ["เสื้อ", "กางเกง", "กระโปรง", "เครื่องประดับ"]
+      },
+      "PRODUCT_COLOR": {
+        "select_value": ["Blue", "Green", "Red", "Orange", "Violet", "Indigo", "Yellow"],
+        "select_input": ["สีฟ้า", "สีเขียว", "สีแดง", "สีส้ม", "สีม่วง", "สีคราม", "สีเหลือง"]
+      }
+    },
+    "ORDER_STATUS": {
+      "status": ["Shipped", "Delivered", "Refunded", "Canceled"],
+      "color": [""]
+    }
+  }
+}
